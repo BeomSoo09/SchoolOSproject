@@ -57,10 +57,10 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-        temp.setText(weather.temp);
-        tempmax.setText(weather.tpmax);
-        tempmin.setText(weather.tpmin);
-        feeltemp.setText(weather.feels);
+        temp.setText(weather.temp+"℃");
+        tempmax.setText(weather.tpmax+"℃");
+        tempmin.setText(weather.tpmin+"℃");
+        feeltemp.setText(weather.feels+"℃");
         geo.setText(Geo(weather.lat,weather.lng));
 
         System.out.println(Geo(weather.lat,weather.lng));
