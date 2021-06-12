@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/txtWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="@string/default_text"
+            />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:textSize="15sp"
+            android:text="@string/default_text"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imgWeather"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="24dp"
+            />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/txtTemperatureMax"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="@string/default_text"
+            />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/txtTemperatureMin"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="@string/default_text"
+            />
+
+    </LinearLayout>
+</FrameLayout>
