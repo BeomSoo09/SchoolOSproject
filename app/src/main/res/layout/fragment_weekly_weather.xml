@@ -7,6 +7,7 @@
     android:background="@drawable/blue_background">
 
     <TextView
+        android:fontFamily="@font/fontshape"
         android:textColor="#FFFFFF"
         android:id="@+id/txtAddress"
         android:layout_width="wrap_content"
@@ -28,6 +29,7 @@
         android:gravity="end">
 
         <TextView
+            android:fontFamily="@font/fontshape"
             android:textColor="#FFFFFF"
             android:layout_width="72dp"
             android:layout_height="wrap_content"
@@ -37,6 +39,7 @@
             />
 
         <TextView
+            android:fontFamily="@font/fontshape"
             android:textColor="#FFFFFF"
             android:layout_width="72dp"
             android:layout_height="wrap_content"
