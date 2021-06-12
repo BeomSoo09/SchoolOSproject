@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#304FFE</color>
+    <color name="color_primary_dark">#304FFE</color>
+    <color name="color_accent">#2979FF</color>
+
+    <!-- 아이콘 -->
+    <color name="gray_icon_color">#999999</color>
+
+    <!-- 메뉴 -->
+    <color name="gray_menu_color">#444444</color>
+    <color name="blue_menu_color">#2E9DE4</color>
+
+    <!-- 텍스트 -->
+    <color name="default_text_color">#111111</color>
+
+    <!-- 라인 -->
+    <color name="default_line_color">#DDDDDD</color>
+
+    <!-- 백그라운드 -->
+    <color name="window_background_color">#FFFFFF</color>
+    <color name="info_background_color">#EEEEEE</color>
+
+    <!-- 그래프 색상 -->
+    <color name="graph_data_temp_color">#FF783B</color>
+    <color name="graph_data_feels_like_color">#87ac70</color>
+</resources>

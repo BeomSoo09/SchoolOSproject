@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="15sp"
+        android:text="@string/default_text"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_vertical">
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="5dp"
+            android:layout_weight="1"
+            android:background="@color/graph_data_temp_color"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:text="온도"
+            />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="5dp"
+            android:layout_weight="1"
+            android:layout_marginStart="32dp"
+            android:background="@color/graph_data_feels_like_color"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:text="체감온도"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/layGraph"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        />
+
+</LinearLayout>
